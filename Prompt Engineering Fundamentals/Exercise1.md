@@ -63,11 +63,6 @@ Generate 5 unique negative test cases in JSON array format for a user profile en
 ]
 ```
 
-**Notes**
-
-- Each object is a negative test case; the `expected_error` field describes the validation failure to assert.
-- Use this array as input to automated tests or to drive API validation checks.
-
 **Expected errors (correspond to the test cases in the JSON array, in order)**
 
 1. username must be at least 8 characters
