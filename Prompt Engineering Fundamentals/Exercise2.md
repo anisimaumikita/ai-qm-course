@@ -13,7 +13,16 @@ Shipping is free for orders $50 or more.
 **Prompt**
 
 ```text
-You are Senior QA Engineer and you need to test a complex piece of business logic for an e-commerce checkout. The rules of logic: -A 10% discount is applied if the cart total is over $100. -An additional 5% discount is applied if the user is a "Premium" member (this stacks with the first discount). -A $10 flat shipping fee is added to all orders under $50. -Shipping is free for orders $50 or more. Calculate the final price for three specific scenarios: Scenario A: A "Standard" user with a cart total of $120. Scenario B: A "Premium" user with a cart total of $120. Scenario C: A "Premium" user with a cart total of $40. Show You result in Table format and show your calculations step-by-step
+You are Senior QA Engineer and you need to test a complex piece of business logic for an e-commerce checkout. The rules of logic: 
+-A 10% discount is applied if the cart total is over $100. 
+-An additional 5% discount is applied if the user is a "Premium" member (this stacks with the first discount). 
+-A $10 flat shipping fee is added to all orders under $50. 
+-Shipping is free for orders $50 or more. 
+Calculate the final price for three specific scenarios: 
+Scenario A: A "Standard" user with a cart total of $120. 
+Scenario B: A "Premium" user with a cart total of $120. 
+Scenario C: A "Premium" user with a cart total of $40. 
+Show You result in Table format and show your calculations step-by-step
 ```
 
 Answer:
