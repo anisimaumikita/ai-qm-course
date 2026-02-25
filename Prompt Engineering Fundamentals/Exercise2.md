@@ -1,3 +1,34 @@
+---
+
+## Step-by-Step Calculations
+
+| Scenario | User Type | Cart Total | Discount Applied | Subtotal After Discount | Shipping Fee | Final Price |
+|----------|-----------|------------|------------------|------------------------|--------------|-------------|
+| A        | Standard  | $120       | 10% ($12)        | $108                   | Free         | $108        |
+| B        | Premium   | $120       | 10% ($12) + 5% ($5.40) | $102.60          | Free         | $102.60     |
+| C        | Premium   | $40        | None             | $40                    | $10          | $50         |
+
+### Scenario A: Standard user, cart total $120
+1. Cart total > $100 → 10% discount: $120 × 10% = $12
+2. Subtotal after discount: $120 - $12 = $108
+3. User is not Premium → no extra discount
+4. Subtotal $108 ≥ $50 → Free shipping
+5. **Final price: $108**
+
+### Scenario B: Premium user, cart total $120
+1. Cart total > $100 → 10% discount: $120 × 10% = $12
+2. Subtotal after first discount: $120 - $12 = $108
+3. Premium user → additional 5% discount: $108 × 5% = $5.40
+4. Subtotal after both discounts: $108 - $5.40 = $102.60
+5. Subtotal $102.60 ≥ $50 → Free shipping
+6. **Final price: $102.60**
+
+### Scenario C: Premium user, cart total $40
+1. Cart total ≤ $100 → no discount
+2. Subtotal: $40
+3. Premium user → no discount (cart total not > $100)
+4. Subtotal $40 < $50 → $10 shipping fee
+5. **Final price: $40 + $10 = $50**
 
 # Exercise 2
 
