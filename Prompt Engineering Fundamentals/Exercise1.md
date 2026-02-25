@@ -4,93 +4,68 @@ Date: 2026-02-25
 
 Task: From Vague to Structured (Test Data Generation)
 
-"Bad" Prompt: "Give me test data for the user profile endpoint."
+**Bad prompt**
 
-"Good" Prompt:
-You are a Senior QA specialist with expertise in testing data, API validation, boundary value analysis, positive and negative testing strategies. You need to generate test data for a new API endpoint that creates user profiles in JSON array format and cover the next requirements: username: string, minimum 8 characters, alphanumeric only. email: string, must be a valid email format. user_role: string, must be one of three values: "admin", "editor", or "viewer". age: integer, between 18 and 99 
-Generate 5 unique negative test cases
+```text
+Give me test data for the user profile endpoint.
+```
 
-Prompt result:
+**Good prompt**
 
-Negative Test Case 1 – Username below minimum length
+```text
+You are a Senior QA specialist with expertise in testing data, API validation, boundary value analysis, positive and negative testing strategies.
+Generate 5 unique negative test cases in JSON array format for a user profile endpoint with these requirements:
+- username: string, minimum 8 characters, alphanumeric only
+- email: string, valid email format
+- user_role: string, one of "admin", "editor", or "viewer"
+- age: integer, between 18 and 99
+```
 
-Validation Targeted: username minimum 8 characters
+**Prompt result — Negative test cases (JSON array)**
 
+```json
 [
   {
     "username": "user12",
     "email": "validuser1@example.com",
     "user_role": "admin",
-    "age": 25
-  }
-]
-
-Expected Result:
-❌ 400 Bad Request – "username must be at least 8 characters"
-
-Negative Test Case 2 – Username contains non-alphanumeric characters
-
-Validation Targeted: username alphanumeric only
-
-[
+    "age": 25,
+    "expected_error": "username must be at least 8 characters"
+  },
   {
     "username": "user_1234",
     "email": "validuser2@example.com",
     "user_role": "editor",
-    "age": 30
-  }
-]
-
-Expected Result:
-❌ 400 Bad Request – "username must be alphanumeric only"
-
-Negative Test Case 3 – Invalid email format
-
-Validation Targeted: email format validation
-
-[
+    "age": 30,
+    "expected_error": "username must contain only alphanumeric characters"
+  },
   {
     "username": "validuser3",
     "email": "invalid-email-format",
     "user_role": "viewer",
-    "age": 40
-  }
-]
-
-Expected Result:
-❌ 400 Bad Request – "email format is invalid"
-
-Negative Test Case 4 – Invalid user_role value
-
-Validation Targeted: user_role enum constraint
-
-[
+    "age": 40,
+    "expected_error": "email must be a valid email address"
+  },
   {
     "username": "validuser4",
     "email": "validuser4@example.com",
     "user_role": "superadmin",
-    "age": 28
-  }
-]
-
-Expected Result:
-❌ 400 Bad Request – "user_role must be admin, editor, or viewer"
-
-Negative Test Case 5 – Age below allowed boundary
-
-Validation Targeted: age boundary value (minimum 18)
-
-[
+    "age": 28,
+    "expected_error": "user_role must be one of [\"admin\", \"editor\", \"viewer\"]"
+  },
   {
     "username": "validuser5",
     "email": "validuser5@example.com",
     "user_role": "viewer",
-    "age": 17
+    "age": 17,
+    "expected_error": "age must be between 18 and 99"
   }
 ]
+```
 
-Expected Result:
-❌ 400 Bad Request – "age must be between 18 and 99"
+**Notes**
 
+- Each object is a negative test case; the `expected_error` field describes the validation failure to assert.
+- Use this array as input to automated tests or to drive API validation checks.
 
 ---
