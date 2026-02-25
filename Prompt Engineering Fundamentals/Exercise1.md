@@ -30,35 +30,35 @@ Generate 5 unique negative test cases in JSON array format for a user profile en
     "email": "validuser1@example.com",
     "user_role": "admin",
     "age": 25,
-    "expected_error": "username must be at least 8 characters"
+    
   },
   {
     "username": "user_1234",
     "email": "validuser2@example.com",
     "user_role": "editor",
     "age": 30,
-    "expected_error": "username must contain only alphanumeric characters"
+    
   },
   {
     "username": "validuser3",
     "email": "invalid-email-format",
     "user_role": "viewer",
     "age": 40,
-    "expected_error": "email must be a valid email address"
+    
   },
   {
     "username": "validuser4",
     "email": "validuser4@example.com",
     "user_role": "superadmin",
     "age": 28,
-    "expected_error": "user_role must be one of [\"admin\", \"editor\", \"viewer\"]"
+    
   },
   {
     "username": "validuser5",
     "email": "validuser5@example.com",
     "user_role": "viewer",
     "age": 17,
-    "expected_error": "age must be between 18 and 99"
+    
   }
 ]
 ```
@@ -67,5 +67,13 @@ Generate 5 unique negative test cases in JSON array format for a user profile en
 
 - Each object is a negative test case; the `expected_error` field describes the validation failure to assert.
 - Use this array as input to automated tests or to drive API validation checks.
+
+**Expected errors (correspond to the test cases in the JSON array, in order)**
+
+1. username must be at least 8 characters
+2. username must contain only alphanumeric characters
+3. email must be a valid email address
+4. user_role must be one of ["admin", "editor", "viewer"]
+5. age must be between 18 and 99
 
 ---
