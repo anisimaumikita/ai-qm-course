@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Exercise 1: Quick vs Thinking Mode in Test Planning
 
 <p align="right">Date: <strong>2026-02-27</strong></p>
@@ -322,3 +323,5 @@ If this were presented in a QA design review:
 - Expand peak-load and fraud modeling coverage
 
 The foundation is strong and risk-aware. It needs formalization and measurable precision to reach production-grade governance.
+=======
+>>>>>>> parent of 42efcf9 (Refined text)
