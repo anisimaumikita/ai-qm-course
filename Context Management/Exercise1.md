@@ -8,13 +8,13 @@
 
 This exercise practices the "Iterative Prompting" and "Structuring Prompts" sections. Your goal is to fix a "flaky" prompt that gives chatty, unparseable output.
 
-**Run the "Flaky" Prompt (V1):**
+**1.Run the "Flaky" Prompt (V1):**
 > Hey, can you give me 3 test users for my new website? I need a username, email, and a password for each.
 
-**Analyze the Output:**
+**2.Analyze the Output:**
 Observe the response. It will likely be conversational and unstructured (e.g., "Sure, here are three test users you can use!..."), which is a "flaky" test because it's not machine-readable and would fail a parsing script.
 
-**Create a "Robust" Prompt (V2):**
+**3.Create a "Robust" Prompt (V2):**
 Your task is to iteratively refine the prompt until it only outputs a valid JSON array.
 
 - **Constraint 1:** The output must be only the JSON object, with no conversational text before or after it.
