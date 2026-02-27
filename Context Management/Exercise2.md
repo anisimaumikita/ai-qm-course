@@ -1,4 +1,4 @@
-# 🧪 Exercise 2: Context Management
+# 🧪 Exercise 2: Validating Against "Just-in-Time" Business Rules
 
 <p align="right">Date: <strong>2026-02-27</strong></p>
 
@@ -6,17 +6,20 @@
 
 ## 📝 Task
 **1. The Data:**
+
 Imagine your test script has captured the following JSON data for a user's cart:
 
 { "order_id": "ORD-789", "user_status": "guest", "item_count": 1, "shipping_method": "international" }
 
 **2. The "Fuzzy" Prompt:**
+
 First, ask the LLM a vague question:
 
 "Does this order look okay?"
 Observe that its answer is likely a guess (e.g., "Yes, it looks like a standard order."). This is a "false positive" pass.
 
 **3. The "Precise" Prompt:**
+
 Now, write a new prompt that provides the critical background knowledge (the business rules) and asks for a specific validation.
 
 **Business Rules to Include:**

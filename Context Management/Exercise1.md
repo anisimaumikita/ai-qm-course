@@ -1,4 +1,4 @@
-# 🧪 Exercise 1: Context Management
+# 🧪 Exercise 1: Iterative Refinement and Strict Formatting
 
 <p align="right">Date: <strong>2026-02-27</strong></p>
 
