@@ -32,14 +32,14 @@ Your prompt should use these rules (perhaps structured with <RULES> or ### marke
 You are a validation engine.
 Analyze the provided JSON data strictly against the listed business rules.
 
-<JSON>
+```json
 { 
 	"order_id": "ORD-789", 
 	"user_status": "guest", 
 	"item_count": 1, 
 	"shipping_method": "international" 
 }
-</JSON>
+```
 
 <RULES>
 Rule 1: All "international" shipping methods are only available to "premium" user_status.
