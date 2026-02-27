@@ -12,7 +12,7 @@ Use this structured prompt format to strengthen reasoning:
 “Propose key test cases to validate functionality.”
 “Summarize validation metrics and rollback strategy.”
 ```
-Evaluate the model’s output for **traceability, test clarity,** and **risk alignment** — just like a QA review session.
+Explain when Thinking mode improves QA outcomes versus when Quick mode is enough.
 
 ---
 
