@@ -1,4 +1,4 @@
-# Exercise 1: Quick vs Thinking Mode in Test Planning
+# Exercise 1: Determining Search Necessity
 
 <p align="right">Date: <strong>2026-03-02</strong></p>
 
