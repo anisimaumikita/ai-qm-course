@@ -8,19 +8,32 @@
 **Objective:** Practice using Canvas to edit and improve QA documentation or test scripts collaboratively.
 
 **Instructions:**
+
 1.Open a Canvas session
+
 2.Copy an existing QA test script (can be a Selenium, Cypress, or unit test script) into the canvas
+
 3.Highlight a block of code or a paragraph of the test documentation
 4.Ask the assistant to:
+
   -Suggest improvements or refactor the code for readability
+
   -Identify potential bugs or edge cases that the test might miss
+
   -Add inline comments explaining each change or suggestion
+
 5.Use the version control features to track at least two iterations of your edits
+
 6.Export the final canvas as a Markdown or PDF
+
 **Expected Result:**
+
   -The original test script plus at least two improved versions with inline comments
+
   -A clear changelog highlighting what was improved, refactored, or added
+
   -Reflection notes explaining why each change improves test quality or clarity
+  
 
 ---
 
