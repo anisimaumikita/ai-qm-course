@@ -14,14 +14,15 @@ Observations:
 
 Prompt used: "Update and generate 30 additional customers. 
 Extend your schema by adding the following new fields to each record: 
--email — a realistic address that matches the customer name pattern. 
--phoneNumber — a phone number string using a consistent pattern such as +0-000-000-0001. 
--items — an array of objects (name, quantity, price) describing purchased products. 
+- email — a realistic address that matches the customer name pattern. 
+- phoneNumber — a phone number string using a consistent pattern such as +0-000-000-0001. 
+- items — an array of objects (name, quantity, price) describing purchased products. 
 
 Also follow the next rules: 
--Expanded statuses (for example: Returned, On Hold, Payment Error, Delayed). -Boundary totals (0, very large, and a few negative values for negative testing). 
--A small set of invalid entries (missing fields or wrong data types). 
--The new contact and item fields populated with realistic values."
+- Expanded statuses (for example: Returned, On Hold, Payment Error, Delayed).
+- Boundary totals (0, very large, and a few negative values for negative testing). 
+- A small set of invalid entries (missing fields or wrong data types). 
+- The new contact and item fields populated with realistic values."
 
 Observations:
 - Expanded status set improves workflow and state-transition coverage.
