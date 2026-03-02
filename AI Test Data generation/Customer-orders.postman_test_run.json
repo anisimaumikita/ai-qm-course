@@ -1,0 +1,274 @@
+{
+	"id": "c93eebc0-bf9d-4f22-b3b2-6e52ab71969c",
+	"name": "My Collection",
+	"timestamp": "2026-03-02T16:19:45.170Z",
+	"collection_id": "52839529-fac154d8-e7e5-4355-a2fa-25f6ad99db15",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 120,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2026-03-02T16:19:36.008Z",
+	"totalFail": 120,
+	"results": [
+		{
+			"id": "730ce316-75d6-416c-a6dd-5f48ef8a3888",
+			"name": "New Request",
+			"url": "https://postman-echo.com/post",
+			"time": 214,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Round-trip integrity": true,
+				"Structural keys present": false,
+				"Type checks": false,
+				"Schema checklist compliance": true
+			},
+			"testPassFailCounts": {
+				"Round-trip integrity": {
+					"pass": 59,
+					"fail": 0
+				},
+				"Structural keys present": {
+					"pass": 0,
+					"fail": 59
+				},
+				"Type checks": {
+					"pass": 0,
+					"fail": 59
+				},
+				"Schema checklist compliance": {
+					"pass": 59,
+					"fail": 0
+				}
+			},
+			"times": [
+				397,
+				211,
+				226,
+				215,
+				207,
+				230,
+				214,
+				210,
+				197,
+				217,
+				197,
+				215,
+				215,
+				214,
+				217,
+				213,
+				208,
+				217,
+				202,
+				199,
+				230,
+				226,
+				216,
+				204,
+				198,
+				213,
+				217,
+				214,
+				213,
+				214
+			],
+			"allTests": [
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				},
+				{
+					"Round-trip integrity": true,
+					"Structural keys present": false,
+					"Type checks": false,
+					"Schema checklist compliance": true
+				}
+			]
+		}
+	],
+	"count": 30,
+	"totalTime": 6566,
+	"collection": {
+		"requests": [
+			{
+				"id": "730ce316-75d6-416c-a6dd-5f48ef8a3888",
+				"method": "POST"
+			}
+		]
+	}
+}
