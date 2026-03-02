@@ -30,5 +30,5 @@ This version 4.40.0 applies to multiple language bindings like Java, Python, .NE
 📌 Summary  
 Component | Latest Stable Version | Release Date  
 --- | --- | ---  
-Selenium (core & WebDriver bindings across languages) | 4.40.0 | January 18, 2026 :contentReference[oaicite:3]{index=3}  
-selenium-webdriver (JavaScript bindings) | 4.41.0 | February 20, 2026 :contentReference[oaicite:4]{index=4}
+Selenium (core & WebDriver bindings across languages) | 4.40.0 | January 18, 2026   
+selenium-webdriver (JavaScript bindings) | 4.41.0 | February 20, 2026 
